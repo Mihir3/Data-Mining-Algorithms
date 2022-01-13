@@ -1,7 +1,7 @@
 # Data-Mining-Algorithms
 
-Project Report : [Link](https://docs.google.com/document/d/1G13YBTMNjX7-OImDn3PTYl6wg6xY4TDbMYZzDKU_KLM/edit)
-Kindly find the results of all the performed tasks and algorithms in the report link above.
+Project Report : [Link](https://docs.google.com/document/d/1G13YBTMNjX7-OImDn3PTYl6wg6xY4TDbMYZzDKU_KLM/edit) 
+<br/> Kindly find the results of all the performed tasks and algorithms in the report link above.
 
 # Abstract
 In my semester project for Data Warehousing and Mining class at university, me and my team-mates built the proposed data-mining algorithms which performed an in-depth analysis on the randomly generated data of the popular fast-food chains. The three chains included in the survey were : Mcdonalds, KFC, Subway.  This system was designed to analyse the three verticals of the fast-food industry : Customer Base, Production and Offer-Systems(Find schemas at link attached). Accordingly, for analysis, a database of random entries was generated using Python libraries and MySQL that contained the details of various customer transactions and employee reports.
