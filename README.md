@@ -1,6 +1,6 @@
 # Data-Mining-Algorithms
 
-Project Report Link : ![alt text] (https://docs.google.com/document/d/1G13YBTMNjX7-OImDn3PTYl6wg6xY4TDbMYZzDKU_KLM/edit)
+Project Report : [Link](https://docs.google.com/document/d/1G13YBTMNjX7-OImDn3PTYl6wg6xY4TDbMYZzDKU_KLM/edit)
 Kindly find the results of all the performed tasks and algorithms in the report link above.
 
 # Abstract
