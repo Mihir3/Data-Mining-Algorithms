@@ -1,0 +1,41 @@
+//Query 1: 
+//Finding out the maximum number of outlets in each location -
+
+USE customerbase;
+SELECT customer.outlet, count(customer.outlet)county
+FROM  customer
+GROUP BY customer.outlet 
+ORDER BY county desc ;
+
+//Query 2 :
+//Finding out the sales of each item across all outlets -
+
+USE customerbase;
+SELECT menu.item_name,count(menu.item_id)item_count
+FROM  menu
+GROUP BY menu.item_name 
+ORDER BY item_count desc;
+
+//Query 3 :
+//Finding out the maximum transportation cost in production -
+
+USE production;
+SELECT mode_of_transport,max(transport_cost)cost
+FROM  region;
+
+//Query 4 :
+//Finding out which app offers a particular offer_id the most -
+
+USE customerbase;
+SELECT offer_id, appname, appoffer,
+GROUP_CONCAT (appname) as “appname”
+FROM  thirdpartyapp GROUP BY appname ;
+
+//Query 5 :
+//Finding out the minimum cost for each process_id -
+
+USE production;
+SELECT process_id, quality_index, min(process_cost)min_cost
+FROM  processes
+GROUP BY process_id ;
+
